@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1529292673 source:c:\users\public\documents\sgbd\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"biblioteca.h"
+
+1529293375 c:\users\public\documents\sgbd\biblioteca.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1529293375 source:c:\users\public\documents\sgbd\criar_tabela.c
+	"biblioteca.h"
+
+1529293738 source:c:\users\public\documents\sgbd\criardados.c
+	"biblioteca.h"
+
+1529290665 source:c:\users\public\documents\sgbd\fechar_arquivo.c
+	"biblioteca.h"
+
+1529293793 source:c:\users\public\documents\sgbd\menu.c
+	"biblioteca.h"
+
