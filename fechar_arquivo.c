@@ -1,6 +1,7 @@
 #include "biblioteca.h"
 
-void fechar_arquivo( FILE *arquivo){
-fclose(arquivo);
+void fechar_arquivo( FILE *arquivo)
+{
+    fclose(arquivo);
 }
 

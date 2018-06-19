@@ -2,14 +2,15 @@
 
 void criar_tabela()
 {
-
+    system("cls");
     //ler o nome da tabela
     printf("Informe o nome da nova tabela\n");
-    char nome[100];
-    gets(nome);
-    strcat(nome,".txt");
+    char nome_tabela[100];
+    scanf("%s",nome_tabela);//le nome da tabela
+
+    strcat(nome_tabela,".txt");
     char table[] = "C:\\Users\\Public\\Documents\\SGBD\\arquivos\\";
-    strcat(table,nome);
+    strcat(table,nome_tabela);//coloca o arquivo na parta de arquivos
 
 
     //criar a tabela
@@ -24,5 +25,10 @@ void criar_tabela()
     {
         printf("\ntabela criada\n\n");
     }
-    criar_dados(tabela);
+
+
+
+
+    fechar_arquivo(tabela);
+    //criar_dados(tabela);
 }

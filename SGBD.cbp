@@ -31,7 +31,47 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="apagar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="biblioteca.h" />
+		<Unit filename="ch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="criarDados.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="criar_tabela.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="doub.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="excluir_tabela.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fechar_arquivo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="flo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="inteiro.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="listar_dados.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="listar_tabelas.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="str.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

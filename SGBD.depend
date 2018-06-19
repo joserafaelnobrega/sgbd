@@ -1,24 +1,55 @@
 # depslib dependency file v1.0
-1529292673 source:c:\users\public\documents\sgbd\main.c
+1529364399 source:c:\users\public\documents\sgbd\main.c
+	"biblioteca.h"
+
+1529365639 c:\users\public\documents\sgbd\biblioteca.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+	<dirent.h>
+
+1529364399 source:c:\users\public\documents\sgbd\criar_tabela.c
 	"biblioteca.h"
 
-1529293375 c:\users\public\documents\sgbd\biblioteca.h
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-
-1529293375 source:c:\users\public\documents\sgbd\criar_tabela.c
+1529368180 source:c:\users\public\documents\sgbd\criardados.c
 	"biblioteca.h"
 
-1529293738 source:c:\users\public\documents\sgbd\criardados.c
+1529364399 source:c:\users\public\documents\sgbd\fechar_arquivo.c
 	"biblioteca.h"
 
-1529290665 source:c:\users\public\documents\sgbd\fechar_arquivo.c
+1529367680 source:c:\users\public\documents\sgbd\menu.c
 	"biblioteca.h"
 
-1529293793 source:c:\users\public\documents\sgbd\menu.c
+1529342593 source:c:\users\public\documents\sgbd\nome_coluna.c
+	"biblioteca.h"
+
+1529354320 source:c:\users\public\documents\sgbd\chave_primaria.c
+	"biblioteca.h"
+
+1529351052 source:c:\users\public\documents\sgbd\listar_tabelas.c
+	"biblioteca.h"
+
+1529368180 source:c:\users\public\documents\sgbd\listar_dados.c
+	"biblioteca.h"
+
+1529368180 source:c:\users\public\documents\sgbd\excluir_tabela.c
+	"biblioteca.h"
+
+1529368180 source:c:\users\public\documents\sgbd\apagar.c
+	"biblioteca.h"
+
+1529368180 source:c:\users\public\documents\sgbd\inteiro.c
+	"biblioteca.h"
+
+1529368180 source:c:\users\public\documents\sgbd\flo.c
+	"biblioteca.h"
+
+1529368180 source:c:\users\public\documents\sgbd\doub.c
+	"biblioteca.h"
+
+1529368180 source:c:\users\public\documents\sgbd\ch.c
+	"biblioteca.h"
+
+1529368180 source:c:\users\public\documents\sgbd\str.c
 	"biblioteca.h"
 
