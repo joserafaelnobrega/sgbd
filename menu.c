@@ -26,7 +26,9 @@ void menu()
     case 4 :
         listar_dados();
         break;
-
+    case 5 :
+        busca();
+        break;
     case 6:
         apagar();
         break;

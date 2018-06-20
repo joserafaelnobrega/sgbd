@@ -18,9 +18,9 @@ void apagar()
         exit(0);
     }
 
-     FILE *intermediario = fopen("intermediario.txt","w");
+    FILE *intermediario = fopen("intermediario.txt","w");
 
-       if ( intermediario == NULL )
+    if ( intermediario == NULL )
     {
         printf("erro no processo\n");
         exit(0);
@@ -44,55 +44,67 @@ void apagar()
     scanf("%d",&numero_digitado);
 
 
-        while( (c=fgetc(arquivo)) !=EOF) {
-            if (c== '\n' && inter == 0){interruptor = 0;}
+    while( (c=fgetc(arquivo)) !=EOF)
+    {
+        if (c== '\n' && inter == 0)
+        {
+            interruptor = 0;
+        }
 
 
 
-                if(interruptor == 0){
+        if(interruptor == 0)
+        {
 
-                        if(c != '\n'){
-                            interruptor2 = 0;
-                            str[contador] = c;
-                            contador++;
-                        }
-
-                        if(contador == 4){ //colocando dentro de um inteiro
-
-                            contador = 0;
-                            interruptor = 1;
-                            chave = atoi(str);
-
-                        }
-                }
-                if(chave == numero_digitado){
-                        if(c == '\n'){
-                            interruptor2 = 1;
-                            strcpy(str,"\0");
-                            chave = 0;
-                            inter = 1;
-                        }
-                }else if(chave !=0){
-                    fprintf(intermediario,"%s",str);
-                    strcpy(str,"\0");
-                    interruptor2 = 1;
-                    chave = 0;
-                }
-
-
-                if(interruptor2 != 0){
-                    fputc(c,intermediario);
-                }
+            if(c != '\n')
+            {
+                interruptor2 = 0;
+                str[contador] = c;
+                contador++;
             }
 
+            if(contador == 4)  //colocando dentro de um inteiro
+            {
+
+                contador = 0;
+                interruptor = 1;
+                chave = atoi(str);
+
+            }
+        }
+        if(chave == numero_digitado)
+        {
+            if(c == '\n')
+            {
+                interruptor2 = 1;
+                strcpy(str,"\0");
+                chave = 0;
+                inter = 1;
+            }
+        }
+        else if(chave !=0)
+        {
+            fprintf(intermediario,"%s",str);
+            strcpy(str,"\0");
+            interruptor2 = 1;
+            chave = 0;
+        }
 
 
-fechar_arquivo(intermediario);
-fechar_arquivo(arquivo);
+        if(interruptor2 != 0)
+        {
+            fputc(c,intermediario);
+        }
+    }
 
 
 
-FILE * arquivo = fopen(nome2, "w+" );
+    fechar_arquivo(intermediario);
+    fechar_arquivo(arquivo);
+
+
+
+    FILE * arquivo = fopen(nome2, "w+" );
 
     if ( arquivo == NULL )
     {
@@ -100,19 +112,20 @@ FILE * arquivo = fopen(nome2, "w+" );
         exit(0);
     }
 
-     FILE *intermediario = fopen("intermediario.txt","r");
+    FILE *intermediario = fopen("intermediario.txt","r");
 
-       if ( intermediario == NULL )
+    if ( intermediario == NULL )
     {
         printf("erro no processo\n");
         exit(0);
     }
 
-    while( (c=fgetc(intermediario)) !=EOF){
+    while( (c=fgetc(intermediario)) !=EOF)
+    {
         fputc(c,arquivo);
     }
 
-fechar_arquivo(intermediario);
-fechar_arquivo(arquivo);
+    fechar_arquivo(intermediario);
+    fechar_arquivo(arquivo);
 
 }

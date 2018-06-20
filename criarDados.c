@@ -17,17 +17,28 @@ void criar_dados()
     {
         printf("falha ao criar ou abrir arquivo\n");
     }
-    char c, f;
-    int sair = 1;
-
-               inserir(arquivo);
-
-            dados_linha(arquivo);
+    char ch, c;
 
 
 
+   while( (ch=fgetc(arquivo))!= EOF ){
+        c = (ch);
+        if(c == EOF){
+        inserir(arquivo);
+        break;
 
-fechar_arquivo(arquivo);
+        }else{
+
+        dados_linha(arquivo,);
+        break;
+
+        }
+    }
+
+
+
+
+    fechar_arquivo(arquivo);
 
 }
 

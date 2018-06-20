@@ -15,4 +15,5 @@ void excluir(); //exclui a tabela que for informada o nome
 void apagar();// apaga uma linha de uma tabela
 void dados_linha(FILE *arquivo);//
 void inserir(FILE *arquivo);
+void busca();
 #endif // BIBLIOTECA_H_INCLUDED

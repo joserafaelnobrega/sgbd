@@ -10,6 +10,8 @@ void inserir (FILE *arquivo)
     char nome_digitado[26];//receber o nome
 
 
+
+
     do
     {
         system("cls");
@@ -48,11 +50,15 @@ void inserir (FILE *arquivo)
 
             scanf("%d",&resposta);
 
-        }while(resposta == 0 && resposta == 1);
+        }
+        while(resposta == 0 && resposta == 1);
 
 
 
-    }while(resposta);
-        fprintf(arquivo,"%s\n",nome_das_colunas);
-        fflush(stdin);
+    }
+    while(resposta);
+    fprintf(arquivo,"%s\n",nome_das_colunas);
+    fflush(stdin);
+
+
 }

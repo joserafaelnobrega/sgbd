@@ -35,7 +35,7 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="biblioteca.h" />
-		<Unit filename="ch.c">
+		<Unit filename="buscar.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="criarDados.c">
@@ -44,7 +44,7 @@
 		<Unit filename="criar_tabela.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="doub.c">
+		<Unit filename="dados_linha.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="excluir_tabela.c">
@@ -53,13 +53,7 @@
 		<Unit filename="fechar_arquivo.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="flo.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="inserir.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="inteiro.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="listar_dados.c">
@@ -72,9 +66,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="menu.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="str.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

@@ -1,8 +1,8 @@
 #include "biblioteca.h"
 
-FILE abrir_arquivo(){
+void buscar(){
 
-system("cls");
+    system("cls");
     char nome [100] = {'\0'};
     printf("informe o nome do arquivo:\n");
     scanf("%s",nome);
@@ -12,18 +12,27 @@ system("cls");
     system("cls");
     FILE * arquivo = fopen(nome2, "r" );
 
-
-    if( arquivo == NULL )
-
+    if ( arquivo == NULL )
     {
-
-        printf( "Erro na abertura do arquivo ou arquivo nao encontrado\n" );
-
-
-
+        printf("falha ao criar ou abrir arquivo\n");
     }
 
+    int tamanho_total;
 
-return *arquivo;
+    fseek(arquivo, 0, SEEK_END);
+
+    tamanho_total = ftell(arquivo);
+
+    char *texto;
+
+
+    texto =(char*) malloc(tamanho_total);
+
+
+
+
+
+
+    free(texto);
 
 }
