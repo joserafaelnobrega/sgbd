@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1529364399 source:c:\users\public\documents\sgbd\main.c
+1529459235 source:c:\users\public\documents\sgbd\main.c
 	"biblioteca.h"
 
-1529365639 c:\users\public\documents\sgbd\biblioteca.h
+1529460153 c:\users\public\documents\sgbd\biblioteca.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -11,13 +11,13 @@
 1529364399 source:c:\users\public\documents\sgbd\criar_tabela.c
 	"biblioteca.h"
 
-1529368180 source:c:\users\public\documents\sgbd\criardados.c
+1529461857 source:c:\users\public\documents\sgbd\criardados.c
 	"biblioteca.h"
 
 1529364399 source:c:\users\public\documents\sgbd\fechar_arquivo.c
 	"biblioteca.h"
 
-1529367680 source:c:\users\public\documents\sgbd\menu.c
+1529459235 source:c:\users\public\documents\sgbd\menu.c
 	"biblioteca.h"
 
 1529342593 source:c:\users\public\documents\sgbd\nome_coluna.c
@@ -29,13 +29,13 @@
 1529351052 source:c:\users\public\documents\sgbd\listar_tabelas.c
 	"biblioteca.h"
 
-1529368180 source:c:\users\public\documents\sgbd\listar_dados.c
+1529456214 source:c:\users\public\documents\sgbd\listar_dados.c
 	"biblioteca.h"
 
 1529368180 source:c:\users\public\documents\sgbd\excluir_tabela.c
 	"biblioteca.h"
 
-1529368180 source:c:\users\public\documents\sgbd\apagar.c
+1529459235 source:c:\users\public\documents\sgbd\apagar.c
 	"biblioteca.h"
 
 1529368180 source:c:\users\public\documents\sgbd\inteiro.c
@@ -51,5 +51,14 @@
 	"biblioteca.h"
 
 1529368180 source:c:\users\public\documents\sgbd\str.c
+	"biblioteca.h"
+
+1529461964 source:c:\users\public\documents\sgbd\inserir.c
+	"biblioteca.h"
+
+1529450875 source:c:\users\public\documents\sgbd\abrir_arquivo.c
+	"biblioteca.h"
+
+1529461857 source:c:\users\public\documents\sgbd\dados_linha.c
 	"biblioteca.h"
 
